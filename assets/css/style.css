@@ -1,0 +1,93 @@
+body {
+    background-color: rgba(59, 134, 255);
+}
+
+.container {
+    background-color: rgb(255, 218, 83);
+    color: rgb(73, 85, 102)
+}
+
+.jumbotron {
+    background-color: rgb(245, 0, 0);
+    font-family: 'Amatic SC', cursive;
+    font-family: 'Monoton', cursive;
+}
+
+.gifGen {
+    -webkit-animation: color-change 1s infinite;
+    -moz-animation: color-change 1s infinite;
+    -o-animation: color-change 1s infinite;
+    -ms-animation: color-change 1s infinite;
+    animation: color-change 1s infinite;
+}
+
+@-webkit-keyframes color-change {
+    0% {
+        color: rgb(255, 218, 83);
+    }
+    50% {
+        color: rgb(73, 85, 102);
+    }
+    100% {
+        color: rgb(255, 218, 83)
+    }
+}
+
+@-moz-keyframes color-change {
+    0% {
+        color: rgb(255, 218, 83);
+    }
+    50% {
+        color: rgb(73, 85, 102);
+    }
+    100% {
+        color: rgb(255, 218, 83)
+    }
+}
+
+@-ms-keyframes color-change {
+    0% {
+        color: rgb(255, 218, 83);
+    }
+    50% {
+        color: rgb(73, 85, 102);
+    }
+    100% {
+        color: rgb(255, 218, 83)
+    }
+}
+
+@-o-keyframes color-change {
+    0% {
+        color: rgb(255, 218, 83);
+    }
+    50% {
+        color: rgb(73, 85, 102);
+    }
+    100% {
+        color: rgb(255, 218, 83)
+    }
+}
+
+@keyframes color-change {
+    0% {
+        color: rgb(255, 218, 83);
+    }
+    25% {
+        color: rgb(255, 0, 0);
+    }
+    50% {
+        color: rgb(73, 85, 102);
+    }
+    75% {
+        color: rgb(255, 0, 0);
+    }
+    100% {
+        color: rgb(255, 218, 83)
+    }
+}
+
+.buttons {
+    font-family: 'Amatic SC', cursive;
+    background-color: rgb(85, 255, 213)
+}

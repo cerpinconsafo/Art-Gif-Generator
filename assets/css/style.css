@@ -51,49 +51,73 @@ body {
 
 @-webkit-keyframes color-change {
     0% {
-        color: rgb(255, 218, 83);
+        color: var(--lav);
+    }
+    25% {
+        color: var(--pink);
     }
     50% {
         color: var(--navy);
     }
+    75% {
+        color: var(--muted);
+    }
     100% {
-        color: rgb(255, 218, 83)
+        color: var(--lav);
     }
 }
 
 @-moz-keyframes color-change {
     0% {
-        color: rgb(255, 218, 83);
+        color: var(--lav);
+    }
+    25% {
+        color: var(--pink);
     }
     50% {
-        color: rgb(73, 85, 102);
+        color: var(--navy);
+    }
+    75% {
+        color: var(--muted);
     }
     100% {
-        color: rgb(255, 218, 83)
+        color: var(--lav);
     }
 }
 
 @-ms-keyframes color-change {
     0% {
-        color: rgb(255, 218, 83);
+        color: var(--lav);
+    }
+    25% {
+        color: var(--pink);
     }
     50% {
-        color: rgb(73, 85, 102);
+        color: var(--navy);
+    }
+    75% {
+        color: var(--muted);
     }
     100% {
-        color: rgb(255, 218, 83)
+        color: var(--lav);
     }
 }
 
 @-o-keyframes color-change {
     0% {
-        color: rgb(255, 218, 83);
+        color: var(--lav);
+    }
+    25% {
+        color: var(--pink);
     }
     50% {
-        color: rgb(73, 85, 102);
+        color: var(--navy);
+    }
+    75% {
+        color: var(--muted);
     }
     100% {
-        color: rgb(255, 218, 83)
+        color: var(--lav);
     }
 }
 

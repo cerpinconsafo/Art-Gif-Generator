@@ -15,7 +15,7 @@
 //initial values and api key
 var buttons = ["Aesthetic", "Color Abstraction", "Constructivist", "Carl Burton", "Glitch", "Acid Art", "Pixel Sorted", "Minimal"];
 var key = "KTMIjgy5hDhnLeBJkjhiTFLRBcNzo99s";
-var queryURL = "https://api.giphy.com/v1/gifs/search?&api_key=" + key + "&limit=10&offset=2";
+var queryURL = "https://api.giphy.com/v1/gifs/search?&api_key=" + key + "&limit=15&offset=1";
 
 
 //generating buttons

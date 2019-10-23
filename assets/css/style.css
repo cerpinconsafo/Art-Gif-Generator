@@ -25,6 +25,10 @@ body {
     border-right: solid 4px var(--mutedPurp);
 }
 
+.jumbotron p {
+    font-size: 12px;
+}
+
 .gifGen {
     -webkit-animation: color-change 1s infinite;
     -moz-animation: color-change 1s infinite;

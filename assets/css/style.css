@@ -1,16 +1,28 @@
+:root {
+    --navy: rgb(54, 59, 116);
+    --mutedPurp: rgb(103, 56, 136);
+    --pink: rgb(239, 79, 145);
+    --lav: rgb(199, 157, 215);
+    --purp: rgb(77, 27, 123);
+}
+
 body {
-    background-color: rgba(59, 134, 255);
+    background-color: var(--mutedPurp);
 }
 
 .container {
-    background-color: rgb(255, 218, 83);
-    color: rgb(73, 85, 102)
+    background-color: var(--navy);
+    color: var(--pink);
+    border-left: solid 2px navy;
+    border-right: solid 2px navy;
 }
 
 .jumbotron {
-    background-color: rgb(245, 0, 0);
+    background-color: var(--purp);
     font-family: 'Amatic SC', cursive;
     font-family: 'Monoton', cursive;
+    border-left: solid 4px var(--mutedPurp);
+    border-right: solid 4px var(--mutedPurp);
 }
 
 .gifGen {
@@ -21,12 +33,28 @@ body {
     animation: color-change 1s infinite;
 }
 
+.cust-button {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 14px;
+    border-bottom: solid 3px var(--mutedPurp);
+    border-right: solid 2px var(--navy);
+    background-color: var(--lav);
+    color: var(--navy);
+    transition: background-color, 1.25s;
+}
+
+.cust-button:hover {
+    transition: background-color, .75s;
+    background-color: var(--pink);
+    color: var(--mutedPurp);
+}
+
 @-webkit-keyframes color-change {
     0% {
         color: rgb(255, 218, 83);
     }
     50% {
-        color: rgb(73, 85, 102);
+        color: var(--navy);
     }
     100% {
         color: rgb(255, 218, 83)
@@ -71,23 +99,39 @@ body {
 
 @keyframes color-change {
     0% {
-        color: rgb(255, 218, 83);
+        color: var(--lav);
     }
     25% {
-        color: rgb(255, 0, 0);
+        color: var(--pink);
     }
     50% {
-        color: rgb(73, 85, 102);
+        color: var(--navy);
     }
     75% {
-        color: rgb(255, 0, 0);
+        color: var(--muted);
     }
     100% {
-        color: rgb(255, 218, 83)
+        color: var(--lav);
     }
 }
 
 .buttons {
     font-family: 'Amatic SC', cursive;
     background-color: rgb(85, 255, 213)
+}
+
+.newGif {
+    border: solid 1px var(--pink);
+    transition: border, .3s;
+}
+
+.newGif:hover {
+    transition: border, .5s;
+    border: none;
+    box-shadow: 5px 15px 15px rgba(199, 157, 215, 0.925);
+}
+
+p {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 10px;
 }

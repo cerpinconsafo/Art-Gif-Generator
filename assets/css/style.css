@@ -7,7 +7,8 @@
 }
 
 body {
-    background-color: var(--mutedPurp);
+    background-color: var(--pink);
+    padding-bottom: 0;
 }
 
 .container {
@@ -15,6 +16,7 @@ body {
     color: var(--pink);
     border-left: solid 2px navy;
     border-right: solid 2px navy;
+    height: 100%;
 }
 
 .jumbotron {
@@ -51,6 +53,13 @@ body {
     transition: background-color, .75s;
     background-color: var(--pink);
     color: var(--mutedPurp);
+}
+
+.footer {
+    background-color: var(--mutedPurp);
+    display: inline-block;
+    width: 100%;
+    border-top: solid 2px var(--purp);
 }
 
 @-webkit-keyframes color-change {

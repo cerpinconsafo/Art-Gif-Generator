@@ -58,7 +58,7 @@ $("#search-button").on("click", function() {
     var value = $("#search-input").val();
     //prevent duplicate buttons
     if (buttons.includes(value)) {
-        alert("You have already searched this");
+        alert("This button already Exists, Search Again");
 
         ajaxCall(value);
         //create the button
@@ -71,6 +71,7 @@ $("#search-button").on("click", function() {
         ajaxCall(value);
         console.log(value);
 
+        $("#search-input").val(" ");
         $("#search-input").attr("placeholder", "S E A R C H  A G A I N ");
 
     };

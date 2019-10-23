@@ -15,11 +15,10 @@
 </head>
 
 <body>
-    <div class="container my-2 py-2 ">
-
-
-        <div class="jumbotron jumbotron-fluid shadow p-4 my-3 " id="jumbo">
-            <div class="text-center display-4 " style="font-family: 'Amatic SC', cursive;">
+    <div class="container">
+        <!--page head/jumbotron-->
+        <div class="jumbotron shadow p-2">
+            <div class="text-center display-4" style="font-family: 'Amatic SC', cursive;">
                 <p> /// W e l c o m e t o t h e \\\</p>
             </div>
             <div class="gifGen text-center lead display-3"> Art GIF Generator</div>
@@ -29,7 +28,6 @@
             </div>
         </div>
         <!--This is the area which the static and dynamic buttons with appear-->
-
         <div class="row d-flex justify-content-center">
             <div class="col-lg text-center mb-5 gif-buttons" id="button-div">
             </div>
@@ -37,7 +35,7 @@
         <div class="row">
             <!--This is where our search bar will appear-->
             <div class="col-lg mx-auto">
-                <div class=" display-5 mx-auto formGoesHere">
+                <div class=" display-5 mx-auto" id="formGoesHere">
                     <form onsubmit="return false;" id="search" class="m-2">
 
                         <label for="search-input">\\ E n t e r [ T e x t ]  o r [ C l i c k ] a \ B u t t o n \\</label>
@@ -49,35 +47,28 @@
                     </form>
 
                 </div>
-                <!--This is the area where the gifs will appear-->
-                <div class="row my-4 " id="gif-display-row ">
-                    <div class="col-lg gif-container " id="gif-display ">
-
-                    </div>
-                </div>
             </div>
+        </div>
+        <!--This is the area where the gifs will appear-->
+        <div class="row my-4">
+            <div class="col-lg gif-container ">
+            </div>
+        </div>
+        <div class="footer d-block mt-1 p-3 text-center ">
+            <p>Art GIF Generator created by Patrick Skolsky<br>October 2019<br></p>
+        </div>
+    </div>
 
 
 
 
-            <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js "></script>
-            <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.15.0/umd/popper.min.js "></script>
-            <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js "></script>
-            <script src="assets/javascript/giphy.js " type="text/javascript "></script>
 
-            <!--
-    //load our page with a predefined array of 'buttons' 
-    //create dynamic buttons with search 
-    /////take value of search input field to create button 
-    /////append dynamic buttons to array of predefined buttons 
-    //create on click to use giphyAPI to search for
-    text value from buttons 
-    /////display result gifs dynamically 
-    //////////include ratings 
-    //////////results on load should be paused 
-    //////////on click to toggle animate/pause of gifs 
-    //on button click, replace currently displayed gifs with
--->
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js "></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.15.0/umd/popper.min.js "></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js "></script>
+    <script src="assets/javascript/giphy.js " type="text/javascript "></script>
 </body>
 
 </html>

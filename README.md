@@ -13,7 +13,7 @@
 
 ## Deployed Page
 
-https://cerpinconsafo.github.io/GiphyApi-Webpage/
+https://cerpinconsafo.github.io/GiphyAPI-Webpage/
 
 ----
 

@@ -1,4 +1,4 @@
-# TArt Gif Generator
+# Art Gif Generator
 #### week 6 AJAX - JS/jQuery - Patrick Skolsky
 ----
 

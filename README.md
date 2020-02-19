@@ -1,5 +1,5 @@
 # Art Gif Generator
-#### week 6 AJAX - JS/jQuery - Patrick Skolsky
+#### unit 6 AJAX - JS/jQuery - Patrick Skolsky
 ----
 
 ## Table of Contents

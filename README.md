@@ -13,7 +13,7 @@
 
 ## Deployed Page
 
-https://cerpinconsafo.github.io/GiphyAPI-Webpage/
+[Art GIF Generator](https://cerpinconsafo.github.io/GiphyAPI-Webpage/)
 
 ----
 

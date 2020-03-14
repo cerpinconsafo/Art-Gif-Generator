@@ -1,3 +1,4 @@
+/*using global color variables*/
 :root {
     --navy: rgb(54, 59, 116);
     --mutedPurp: rgb(103, 56, 136);
@@ -46,13 +47,16 @@ body {
     border-right: solid 2px var(--navy);
     background-color: var(--lav);
     color: var(--navy);
-    transition: background-color, 1.25s;
+    transition: background-color, .75s;
+    
 }
 
 .cust-button:hover {
-    transition: background-color, .75s;
+    transition: background-color, 1.25s;
     background-color: var(--pink);
     color: var(--mutedPurp);
+    font-style: italic;
+    font-size: 16px; /*this makes the buttons expand and sort of morph, not sure if i like it, but its kind of interesting*/
 }
 
 .footer {

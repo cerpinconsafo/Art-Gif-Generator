@@ -60,7 +60,7 @@ $("#search-button").on("click", function() {
     if (buttons.includes(value)) {
         alert("This button already Exists, Search Again");
 
-        ajaxCall(value);
+        
         //create the button
     } else {
 
@@ -102,7 +102,7 @@ function ajaxCall(value) {
             gifImg.attr("data-still", results[i].images.original_still.url);
             gifImg.attr("data-animate", results[i].images.original.url);
             gifImg.attr("data-state", "still");
-            gifImg.addClass("newGif p-1 mx-auto d-block")
+            gifImg.addClass("newGif mx-auto d-block")
 
             gifDiv.addClass("m-4 gif-click");
             gifDiv.append(p);

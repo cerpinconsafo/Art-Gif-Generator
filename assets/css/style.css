@@ -29,6 +29,7 @@ body {
 }
 
 .jumbotron p {
+    color: var(--lav);
     font-size: 12px;
 }
 

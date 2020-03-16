@@ -10,8 +10,8 @@ This webpage utilizes the GIPHY rest API, as well as jQuery to generate dynamic 
 * [Deployed Page](#deployed-page)
 * [Functionality](#functionality)
 * [Technologies](#technologies)
-* [Versions]
-* [Contributors]
+* [Versioning](#versioning)
+* [Contributors](#contributors)
 
 ----
 
@@ -44,7 +44,7 @@ Insert GIFs here
 
 ----
 
-## Versions 
+## Versioning
 
 * Alpha 0.0.1
   - Predominantly functional with API and jQuery.  Buttons do not save in local storage on reload.

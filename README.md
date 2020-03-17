@@ -22,8 +22,8 @@ Nothing to install.  Visit the deployed page and enjoy!
 
 ART GIF GENERATOR provides users the ability to SEARCH predefined Art categories, as well as CREATE their own unique search buttons.
 
--![CLICK A BUTTON](assets/images/giphy_click.gif")
--![CREATE A BUTTON](assets/images/giphy_create.gif")
+-![CLICK A BUTTON](assets/images/giphy_click.gif)
+-![CREATE A BUTTON](assets/images/giphy_create.gif)
 
 
 

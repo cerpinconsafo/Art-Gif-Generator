@@ -13,7 +13,7 @@ This webpage utilizes the GIPHY rest API, as well as jQuery to generate dynamic 
 ----
 ## Deployed Page
 
-[Art GIF Generator](https://cerpinconsafo.github.io/GiphyAPI-Webpage/)
+[Art GIF Generator](https://cerpinconsafo.github.io/Art-Gif-Generator/)
 
 Nothing to install.  Visit the deployed page and enjoy!
 
